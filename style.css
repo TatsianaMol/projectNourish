@@ -10,7 +10,7 @@ header{
     background-image: url(img/nourish_fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-/*     height: 350px; */
+    height: 640px;
 }
 
 .logo_nav{
@@ -43,3 +43,19 @@ h1{
     display: block;
     opacity: 0.5;
 }
+
+
+/* 2 */
+
+.orange{
+   /* font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+
+    color: rgb(204, 151, 17); */
+    font-family: "Work Sans", sans-serif;
+  /*   font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(204, 151, 17);
+    font-size: 60px;
+} 
