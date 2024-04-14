@@ -57,5 +57,45 @@ h1{
     font-weight: 400;
     font-style: normal;
     color: rgb(204, 151, 17);
-    font-size: 60px;
+  
 } 
+
+/* 3 */
+
+.crem{
+    background-image: url(img/serum_fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+ h2::after{
+    content:' ';
+    width: 75%;
+    height: 1px;
+    background-color: rgb(249, 168, 17);
+    display: block;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.sect_3:nth-child(-n+4){
+    margin:0;
+}
+
+.list-group {
+
+list-style-position:outside;
+    
+}
+
+.list-item{
+    list-style-image: url(img/check.svg);
+    padding-left: 10px;
+}
+
+.btn_dop{
+    float: left;
+}
+
+
